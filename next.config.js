@@ -12,7 +12,7 @@ const nextConfig = {
         protocol: "https",
         hostname: "storage.googleapis.com",
         port: "",
-        pathname: "/dicoding-profile-app//**",
+        pathname: "/dicoding-profile-app/**",
       },
       {
         protocol: "https",
