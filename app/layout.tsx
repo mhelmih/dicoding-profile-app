@@ -17,16 +17,16 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
       path: "/",
       current: segment.length === 0,
     },
-    {
-      name: "Projects",
-      path: "/projects",
-      current: segment[0] === "projects",
-    },
-    {
-      name: "Blogs",
-      path: "/blogs",
-      current: segment[0] === "blogs",
-    },
+    // {
+    //   name: "Projects",
+    //   path: "/projects",
+    //   current: segment[0] === "projects",
+    // },
+    // {
+    //   name: "Blogs",
+    //   path: "/blogs",
+    //   current: segment[0] === "blogs",
+    // },
     {
       name: "About",
       path: "/about",
