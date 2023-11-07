@@ -127,16 +127,16 @@ const FeaturedProjects = ({ projects }: any) => {
                         </p>
                       ))}
                     </div>
-                    <button className="mt-8 max-w-fit rounded-[4px] border border-primary-40 px-6 py-3 text-sm text-primary-40 hover:border-primary-50 hover:bg-gray-100 hover:text-primary-50">
+                    {/* <button className="mt-8 max-w-fit rounded-[4px] border border-primary-40 px-6 py-3 text-sm text-primary-40 hover:border-primary-50 hover:bg-gray-100 hover:text-primary-50">
                       Read more
-                    </button>
+                    </button> */}
                   </div>
                 </div>
               </div>
             ))}
           </div>
         </div>
-        <Link href="/projects" className="text-xl md:text-2xl">
+        {/* <Link href="/projects" className="text-xl md:text-2xl">
           See more projects {" "}
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -152,7 +152,7 @@ const FeaturedProjects = ({ projects }: any) => {
               d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
             />
           </svg>
-        </Link>
+        </Link> */}
       </div>
     </section>
   );

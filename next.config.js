@@ -10,6 +10,12 @@ const nextConfig = {
       },
       {
         protocol: "https",
+        hostname: "storage.googleapis.com",
+        port: "",
+        pathname: "/dicoding-profile-app//**",
+      },
+      {
+        protocol: "https",
         hostname: "www.notion.so",
         port: "",
         pathname: "/images/page-cover/**",
